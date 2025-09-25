@@ -163,7 +163,7 @@ Reviews
 7. Submit a Review (Authenticated)
 Replace :bookId with an actual book ID.
 
-curl -X POST http://localhost:5000/api/reviews/book/:bookId \
+curl -X POST http://localhost:5000/api/reviews/book/:bookId/reviews \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer YOUR_TOKEN" \
 -d '{"rating": 5, "comment": "An absolute classic!"}'
